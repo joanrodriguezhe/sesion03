@@ -4,7 +4,7 @@
     background-color: red;
 }
 
-.info h2 {
+.info h1, .info label {
     color: #025157;
 }
 
@@ -12,6 +12,17 @@
     color: #343434;
 }
 
-.info>form p {
-    color: #025157;
+#email {
+    margin-right: -5px;
+    height: 29px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+
+#submit {
+    padding: 10px;
+    background-color: #025157;
+    border-radius: 0px 10px 10px 0px;
+    border: 0;
+    color:white
 }
